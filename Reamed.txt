@@ -1,0 +1,6 @@
+Lo que pasa es que el parte final del video se genera un reporte hice todos lo pasos pero no me funciono
+lo intente varias veces hacieno too , dese 0 y nada entonces es para que lo rebices y me digas por que no
+genera e resporte,
+
+ps lo unico es que tendrias que tener sqlite instalalodo pero creo que la base de datos ba alli montada en 
+el repositorio
