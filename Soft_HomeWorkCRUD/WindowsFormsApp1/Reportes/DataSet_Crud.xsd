@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet_Crud" targetNamespace="http://tempuri.org/DataSet_Crud.xsd" xmlns:mstns="http://tempuri.org/DataSet_Crud.xsd" xmlns="http://tempuri.org/DataSet_Crud.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet_Crud" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet_Crud" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet_Crud">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tbl_articulos" msprop:Generator_RowClassName="tbl_articulosRow" msprop:Generator_RowEvHandlerName="tbl_articulosRowChangeEventHandler" msprop:Generator_RowDeletedName="tbl_articulosRowDeleted" msprop:Generator_RowDeletingName="tbl_articulosRowDeleting" msprop:Generator_RowEvArgName="tbl_articulosRowChangeEvent" msprop:Generator_TablePropName="tbl_articulos" msprop:Generator_RowChangedName="tbl_articulosRowChanged" msprop:Generator_UserTableName="tbl_articulos" msprop:Generator_RowChangingName="tbl_articulosRowChanging" msprop:Generator_TableClassName="tbl_articulosDataTable" msprop:Generator_TableVarName="tabletbl_articulos">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="descripcion_art" msprop:Generator_UserColumnName="descripcion_art" msprop:Generator_ColumnPropNameInTable="descripcion_artColumn" msprop:Generator_ColumnPropNameInRow="descripcion_art" msprop:Generator_ColumnVarNameInTable="columndescripcion_art" type="xs:string" minOccurs="0" />
+              <xs:element name="marca_art" msprop:Generator_UserColumnName="marca_art" msprop:Generator_ColumnPropNameInTable="marca_artColumn" msprop:Generator_ColumnPropNameInRow="marca_art" msprop:Generator_ColumnVarNameInTable="columnmarca_art" type="xs:string" minOccurs="0" />
+              <xs:element name="descripcion_med" msprop:Generator_UserColumnName="descripcion_med" msprop:Generator_ColumnPropNameInTable="descripcion_medColumn" msprop:Generator_ColumnPropNameInRow="descripcion_med" msprop:Generator_ColumnVarNameInTable="columndescripcion_med" type="xs:string" minOccurs="0" />
+              <xs:element name="descripcion_cat" msprop:Generator_UserColumnName="descripcion_cat" msprop:Generator_ColumnPropNameInTable="descripcion_catColumn" msprop:Generator_ColumnPropNameInRow="descripcion_cat" msprop:Generator_ColumnVarNameInTable="columndescripcion_cat" type="xs:string" minOccurs="0" />
+              <xs:element name="id" msprop:Generator_UserColumnName="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnVarNameInTable="columnid" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
